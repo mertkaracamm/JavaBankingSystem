@@ -27,7 +27,7 @@ This repository contains my implementation of a simple Java banking system. I im
 Clone the repo and run the tests:
 
 ```bash
-git clone https://github.com/mertkaracamm/JavaBankingSystem.git
+git clone https://github.com/mertkaracamm/Java_Banking_System.git
 cd JavaBankingSystem
 
 # Run all tests
