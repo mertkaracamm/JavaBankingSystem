@@ -1,14 +1,14 @@
 # Java Banking System
 
-This repository contains my implementation of a simple Java banking system. I implemented the core classes and logic required for account management, basic transactions, and PIN-based authorization. The code is written to be clear, testable, and aligned with the project's UML and unit tests.
+This repository contains my implementation of a simple Java banking system. I implemented the core classes and logic required for account management, basic transactions, and PIN-based authorization. The code is written to be clear, testable, and aligned with the project's unit tests.
 
 
 ## Implemented components
-- `Bank` / `BankInterface` — account creation (consumer & commercial), lookup, balance checks, credit/debit operations.
-- `Account` (abstract) / `AccountInterface` — represents an account with account holder, PIN validation, and balance operations.
+- `Bank` / `BankInterface` -> account creation (consumer & commercial), lookup, balance checks, credit/debit operations.
+- `Account` (abstract) / `AccountInterface` -> represents an account with account holder, PIN validation, and balance operations.
 - `AccountHolder` (abstract) and concrete implementations `Person` and `Company`.
-- `ConsumerAccount` and `CommercialAccount` — ConsumerAccount has a `Person` owner; CommercialAccount has a `Company` owner and an authorized-users list.
-- `Transaction` / `TransactionInterface` — encapsulates operations (credit/debit) and validation where appropriate.
+- `ConsumerAccount` and `CommercialAccount` -> ConsumerAccount has a `Person` owner; CommercialAccount has a `Company` owner and an authorized-users list.
+- `Transaction` / `TransactionInterface` -> encapsulates operations (credit/debit) and validation where appropriate.
 - Unit tests in `src/test/java` exercise concurrency, basic functionality, and edge cases.
 
 ## Features
